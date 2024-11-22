@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Conversor de Moedas</title>
+  <style>
+      body {
+  font-family: Arial, sans-serif;
+  background-color: #F0F8FF; /* Azul-marinho pastel */
+}
+
+nav {
+  background-color: #FFB6C1; /* Vermelho-pastel */
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:   
+ none;
+}
+
+nav li a:hover {
+  background-color:
+ #E6A8B4;
+}
+
+.conteudo {
+    background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+}
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="prova8.html">Distância</a></li>
+      <li><a href="prova8_extra.html">Dinheiro</a></li>
+    </ul>
+  </nav>
+
+  <div class="conteudo">
+    <h2>Conversor Real-Dolar</h2>
+    <label for="reais">Reais:</label>
+    <input type="number" id="reais" placeholder="Digite o valor em reais">
+    <button onclick="converter()">Converter</button>
+    <p id="resultado"></p>
+  </div>
+
+  <script src="prova8_extra.js"></script>
+</body>
+</html>
